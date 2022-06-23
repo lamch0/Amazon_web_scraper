@@ -26,6 +26,7 @@ You may uncomment the line ```# driver = webdriver.Chrome(service = Service(exec
 
 ## New features added by me
 * Image links
+* Download images
 * Save the scraped results into a csv file
 
 ## Remarks
