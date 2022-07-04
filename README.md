@@ -11,9 +11,11 @@ You can check your chrome version with chrome://version/.
 ## How it works
 Change the keyword to your desire search keyword.
 
+It normally takes around 5-7 minutes for 3 pages of each category.
+
 If you get errors, it probably relates to the class names of the items. 
 
-You may uncomment the line ```# driver = webdriver.Chrome(service = Service(executable_path=driver_path)) # show browser``` in order to show your brower and inspect for the respective class name.
+You may uncomment the line ```# driver = webdriver.Chrome(service = Service(executable_path=driver_path)) # show browser``` in order to show your brower and inspect for the respective class name. (However, after testing, showing the browser is less likely to be blocked by amazon. Therefore, showing the browser is default)
 
 ### Fields for the product
 * Name
@@ -24,15 +26,10 @@ You may uncomment the line ```# driver = webdriver.Chrome(service = Service(exec
 * Links to product details
 * Images Links
 
-## New features added by me
-* Image links
-* Download images
-* Save the scraped results into a csv file
-
 ## Remarks
 As Amazon does not allow auto scraping with just BeautifulSoup, using Selenium can let us simulate a human and scrape what we want.
 
-In this application, I am trying to set the keyword in CHINESE. If you want to set it in English, you might need to pay attention to the class names as they might vary.
+In this application, I am trying to have the keyword and product name in CHINESE. If you want to set it in English, you might need to pay attention to the web url and class names as they might vary.
 
 Also, Amazon's website might change from time to time so it is normal to have the class names or even the DOM element changed.
 
