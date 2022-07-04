@@ -45,8 +45,6 @@ for cat_count, category in enumerate(categories['synonyms']):
     if (category == 'nan'):
         category = categories['category'][cat_count]
     cat_name = categories['category'][cat_count]
-    
-    cat_count+=1
 
     results = []
 
