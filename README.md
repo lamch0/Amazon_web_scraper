@@ -1,12 +1,17 @@
 # Amazon_web_scraper
 An amazon web scraper in python with Selenium and BeautifulSoup that can get the fields down below in a csv file.
 
-## Setup
-Please download your web driver.
+## Installation
+
+``` pip install -r requirements.txt ```
+
+Also, please download your web driver.
 
 If you are using chrome, download it from https://chromedriver.chromium.org/downloads.
 
 You can check your chrome version with chrome://version/.
+
+
 
 ## How it works
 Change the keyword to your desire search keyword.
